@@ -1,0 +1,17 @@
+.dark {
+  --bg-color: #1a202c;
+  --text-color: #f7fafc;
+}
+
+body {
+  @apply bg-gray-100 text-gray-900;
+}
+
+.dark body {
+  @apply bg-gray-800 text-gray-200;
+}
+
+/* Import Tailwind CSS styles */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
