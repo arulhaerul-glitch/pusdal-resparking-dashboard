@@ -1,0 +1,9 @@
+# Node.js
+node_modules/
+dist/
+.env
+
+# Other build artifacts
+*.log
+*.tmp
+*.cache
